@@ -1,0 +1,32 @@
+
+.dark-button:hover, .dark-button:focus, .dark-button:hover:after, .dark-button:focus:after {
+    background-color: #127db7;
+    color: #fff;
+
+}
+
+.primary-button:hover, .primary-button:focus {
+    background-color: #127db7;
+    color: #fff;
+}
+
+/* #endregion Button */
+
+/*----------------------------------------------
+3. Feature
+----------------------------------------------*/
+
+/* #region Feature */
+
+.card:not(.no-hover):hover {
+   background-color: #127db7;
+    color: #fff;
+}
+
+.showcase .card:hover .image-over:before {
+   background-color: #127db7;
+    color: #fff;
+    opacity: 0.9;
+}
+
+/* #endregion Feature */

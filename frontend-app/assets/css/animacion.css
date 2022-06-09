@@ -1,0 +1,15 @@
+ 
+        .image{
+            
+ 
+       
+            
+            transition-property: all;
+            transition-duration: 800ms;        
+        }
+        .image:hover{
+            transform: rotate(360deg);
+            filter: grayscale(0%);   
+
+
+        }
